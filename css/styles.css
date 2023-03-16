@@ -76,6 +76,7 @@ footer {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 80px;
 }
 
 .hero-title {
@@ -99,4 +100,65 @@ footer {
     letter-spacing: 1.4px;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+
+/* Section Design Inspires */
+
+
+.design-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 130px;
+}
+
+.design-title {
+    font-size: 43px;
+    line-height: 58px;
+    margin-bottom: 23px;
+}
+
+.design-text {
+    font-size: 14px;
+    line-height: 24px;
+    color: #A0A0A0;
+    margin-bottom: 26px;
+}
+
+.design-link {
+    margin-bottom: 80px;
+    font-size: 13px;
+    line-height: 21px;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+}
+
+.design-list {
+    display: flex;
+}
+
+.design-list-item:not(:last-child) {
+    margin-right: 25px;
+}
+
+..design-list-item {
+    text-align: center;
+}
+
+.design-image {
+    margin-bottom: 50px;
+}
+
+.design-list-title {
+    font-size: 27px;
+    line-height: 30px;
+    margin-bottom: 23px;
+}
+.design-list-link {
+    line-height: 15px;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
 }
