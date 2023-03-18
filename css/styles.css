@@ -36,6 +36,7 @@ footer {
     margin: 0 auto;
     padding: 25px 38px;
 }
+
 /* Section header */
 
 .header-nav {
@@ -110,7 +111,7 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 130px;
+    margin-bottom: 120px;
 }
 
 .design-title {
@@ -142,7 +143,7 @@ footer {
     margin-right: 25px;
 }
 
-..design-list-item {
+.design-list-item {
     text-align: center;
 }
 
@@ -155,10 +156,208 @@ footer {
     line-height: 30px;
     margin-bottom: 23px;
 }
+
 .design-list-link {
     line-height: 15px;
     font-size: 13px;
     text-align: center;
     letter-spacing: 1.4px;
     text-transform: uppercase;
+}
+
+/* Секція Featured Products */
+
+.products-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 195px;
+} 
+
+.products-title {
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 36px;
+    margin-bottom: 16px;
+}
+
+.products-subtitle {
+    font-size: 15px;
+    line-height: 18px;
+    color: #A0A0A0;
+    margin-bottom: 40px;
+}
+
+.products-list {
+    display: flex;
+}
+
+.products-images:not(:last-child) {
+    margin-right: 25px;
+}
+.products-name {
+    font-size: 13px;
+    line-height: 21px;
+    color: #A0A0A0;
+}
+.products-price {
+    font-size: 12px;
+    line-height: 21px;
+    color: #A0A0A0;
+}
+
+/* Секція Home Office Inspiration */
+
+.office-section {
+    max-width: 100%;
+    height: 504px;
+    margin: 0 auto;
+    
+    background-color: #A0A0A0;
+    background-image: url(../img/office.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.office-title {
+    font-size: 66px;
+    line-height: 70px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.office-text {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.8px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.office-link {
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/* Секція Made The Hard Way */
+
+.way-section {
+    justify-content: center;
+    margin-bottom: 43px;
+}
+.way-title {
+    font-size: 34px;
+    line-height: 36px;
+    color: #000000;
+    margin-bottom: 23px;
+}
+
+.way-text {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.8px;
+    color: #A0A0A0;
+    margin-bottom: 25px;
+}
+
+.way-image {
+    width: 1052px;
+    height: 592px;
+    margin: 0 auto;
+}
+
+/* Секція Make Work Meaningful */
+
+.work-section {
+    text-align: center;
+    margin-bottom: 97px;
+}
+
+.work-title {
+    font-size: 34px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.work-text {
+    font-size: 16px;
+    line-height: 24px;
+    color: #A0A0A0;
+    margin-bottom: 80px;
+}
+
+.work-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 25px;
+}
+
+.work-list-item {
+    flex-basis: calc((100% - 5 * 25) / 6);
+}
+
+/* Секція We Hope You'll Join Us */
+
+.hope-section {
+    text-align: center;
+    margin-bottom: 115px;
+}
+
+.hope-title {
+    font-size: 34px;
+    line-height: 36px;
+    color: #000000;
+    margin-bottom: 44px;
+}
+.hope-link {
+    font-size: 13px;
+    line-height: 21px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+/* Секція Design Inspires */
+
+.inspires-section {
+    max-width: 100%;
+    height: 404px;
+    margin: 0 auto;
+    background-color: #9AA8B1;
+    display: flex;justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.inspires-img {
+    background-image: url(../img/logo2.svg);
+    width: 40px;
+    height: 34px;
+    margin-bottom: 24px;
+}
+
+.inspires-title {
+    font-size: 43px;
+    line-height: 58px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.inspires-text {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
 }
