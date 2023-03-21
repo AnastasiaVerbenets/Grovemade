@@ -11,6 +11,8 @@ a {
 
 ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 img {
@@ -23,8 +25,9 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-    text-align: center;
+h6,
+p {
+    margin: 0;
 }
 
 footer {
@@ -34,7 +37,7 @@ footer {
 .container {
     width: 1440px;
     margin: 0 auto;
-    padding: 25px 38px;
+    padding: 25px 37px;
 }
 
 /* Section header */
@@ -168,15 +171,13 @@ footer {
 /* Секція Featured Products */
 
 .products-section {
-    display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
     margin-bottom: 195px;
 } 
 
 .products-title {
-    font-weight: 400;
     font-size: 33px;
     line-height: 36px;
     margin-bottom: 16px;
@@ -185,12 +186,19 @@ footer {
 .products-subtitle {
     font-size: 15px;
     line-height: 18px;
+    letter-spacing: 0.8px;
     color: #A0A0A0;
     margin-bottom: 40px;
 }
 
+.products-dots {
+    margin-bottom: 20px;
+}
+
 .products-list {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .products-images:not(:last-child) {
@@ -260,6 +268,7 @@ footer {
     line-height: 36px;
     color: #000000;
     margin-bottom: 23px;
+    text-align: center;
 }
 
 .way-text {
@@ -300,7 +309,6 @@ footer {
 .work-list {
     display: flex;
     flex-wrap: wrap;
-    list-style: none;
     gap: 25px;
 }
 
@@ -311,7 +319,7 @@ footer {
 /* Секція We Hope You'll Join Us */
 
 .hope-section {
-    text-align: center;
+
     margin-bottom: 115px;
 }
 
@@ -332,11 +340,12 @@ footer {
 /* Секція Design Inspires */
 
 .inspires-section {
-    max-width: 100%;
+    max-width: 1340px;
     height: 404px;
     margin: 0 auto;
     background-color: #9AA8B1;
-    display: flex;justify-content: center;
+    display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
     margin-bottom: 40px;
