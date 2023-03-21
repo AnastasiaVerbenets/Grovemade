@@ -171,15 +171,15 @@ footer {
 /* Секція Featured Products */
 
 .products-section {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; 
     margin-bottom: 195px;
 } 
 
 .products-title {
     font-size: 33px;
     line-height: 36px;
+    color: #000000;
+    font-weight: 400;
+    text-align: center;
     margin-bottom: 16px;
 }
 
@@ -188,10 +188,13 @@ footer {
     line-height: 18px;
     letter-spacing: 0.8px;
     color: #A0A0A0;
+    font-weight: 400;
+    text-align: center;
     margin-bottom: 40px;
 }
 
 .products-dots {
+    margin: 0 auto;
     margin-bottom: 20px;
 }
 
@@ -201,16 +204,18 @@ footer {
     align-items: center;
 }
 
-.products-images:not(:last-child) {
-    margin-right: 25px;
-}
 .products-name {
     font-size: 13px;
     line-height: 21px;
+    letter-spacing: 0.7px;
+    font-weight: 400;
     color: #A0A0A0;
 }
+
 .products-price {
     font-size: 12px;
+    letter-spacing: 0.7px;
+    font-weight: 400;
     line-height: 21px;
     color: #A0A0A0;
 }
@@ -231,7 +236,7 @@ footer {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 25px;
+    margin-bottom: 116px;
 }
 
 .office-title {
@@ -260,9 +265,9 @@ footer {
 /* Секція Made The Hard Way */
 
 .way-section {
-    justify-content: center;
     margin-bottom: 43px;
 }
+
 .way-title {
     font-size: 34px;
     line-height: 36px;
@@ -274,9 +279,9 @@ footer {
 .way-text {
     font-size: 16px;
     line-height: 24px;
-    text-align: center;
     letter-spacing: 0.8px;
     color: #A0A0A0;
+    text-align: center;
     margin-bottom: 25px;
 }
 
@@ -290,13 +295,16 @@ footer {
 
 .work-section {
     text-align: center;
-    margin-bottom: 97px;
+    margin-bottom: 124px;
 }
 
 .work-title {
+    font-weight: 400;
     font-size: 34px;
     line-height: 36px;
+    text-align: center;
     color: #000000;
+    margin-bottom: 23px;
 }
 
 .work-text {
@@ -319,19 +327,29 @@ footer {
 /* Секція We Hope You'll Join Us */
 
 .hope-section {
-
-    margin-bottom: 115px;
+    margin-bottom: 120px;
 }
 
 .hope-title {
     font-size: 34px;
     line-height: 36px;
     color: #000000;
+    text-align: center;
     margin-bottom: 44px;
 }
+
 .hope-link {
+    /* font-size: 13px;
+    line-height: 21px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000000; */
+
+    font-weight: 400;
     font-size: 13px;
     line-height: 21px;
+    text-align: center;
     letter-spacing: 1.4px;
     text-transform: uppercase;
     color: #000000;
@@ -363,6 +381,7 @@ footer {
     line-height: 58px;
     text-align: center;
     color: #FFFFFF;
+    margin-bottom: 23px;
 }
 
 .inspires-text {
@@ -370,4 +389,43 @@ footer {
     line-height: 24px;
     text-align: center;
     color: #FFFFFF;
+}
+
+/* Секція footer */
+
+
+.list-footer-item {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.footer-box {
+        width: 350px;
+        height: 100px;
+        border: 5px solid #f9f9f9;
+}
+
+
+.footer-title {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 23px;
+}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.8px;
+    color: #A0A0A0;
+    margin-bottom: 91px;
+}
+
+.footer-line { 
+    border-bottom: 1px solid #000000;
+    margin-bottom: 50px;
 }
